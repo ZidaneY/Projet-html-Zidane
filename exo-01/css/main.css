@@ -55,6 +55,7 @@ section{
     padding: 1rem;
 }
 section h2,
+
 section p{
     background-color: #2b2a33;
     color: inherit;
@@ -62,4 +63,14 @@ section p{
 }
 section p{
     margin-top: 1rem;
+}
+
+section p img{
+    display: inline-block;
+    width: 100%;
+    object-fit: cover;
+}
+
+footer *{
+    text-align: center;
 }
